@@ -1,0 +1,8 @@
+CMD 0 arg=00000000
+CMD 8 arg=000001aa
+CMD 55 arg=00000000
+CMD 41 arg=40000000
+CMD 16 arg=00000200
+CMD 6 arg=80fffff1
+PASS unsupported high-speed function rejected without raising SCK
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_sdhs30\sim\tb_sdhs30.sv:102: $finish called at 1031685000 (1ps)

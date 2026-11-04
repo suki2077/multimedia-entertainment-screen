@@ -1,0 +1,2 @@
+PASS invalid video rejected mode=7 error=07
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_native30\sim\tb_av_reader.sv:44: $finish called at 79429000 (1ps)

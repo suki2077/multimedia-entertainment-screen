@@ -1,0 +1,2 @@
+PASS full three-level playthrough without internal state injection:       16064 frames, 96 bricks, score 0960, lives 3, valid positions and victory
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_native30\sim\tb_arcade_playthrough.sv:25: $finish called at 6747440000 (1ps)

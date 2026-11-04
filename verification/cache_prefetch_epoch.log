@@ -1,0 +1,2 @@
+PASS tagged prefetch commit/failure snapshots, no stale retry, cached foreground, displayed-index advance and explicit retry after manual navigation
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_sdhs30\sim\tb_cache_prefetch_epoch.sv:26: $finish called at 4715000 (1ps)

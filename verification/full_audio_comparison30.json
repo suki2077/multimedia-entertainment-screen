@@ -1,0 +1,14 @@
+[
+  {
+    "file": "let go.SAV",
+    "source_audio_samples": 4339200,
+    "pcm_sha256": "68a2cd776517a0c416da4f53032dafe38c7b4305b35abf82843a18d41d1692ba",
+    "unchanged_audio_vs_20fps": true
+  },
+  {
+    "file": "apologize.SAV",
+    "source_audio_samples": 5006400,
+    "pcm_sha256": "d7305424eb448834036501b631cd32e4bd8df96b17669ead859c89aafc67bea9",
+    "unchanged_audio_vs_20fps": true
+  }
+]

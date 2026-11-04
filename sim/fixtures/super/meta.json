@@ -1,0 +1,46 @@
+{
+  "count": 7377,
+  "base": 0,
+  "images": [
+    {
+      "width": 2,
+      "height": 3,
+      "top_down": false,
+      "offset": 54,
+      "first_lba": 555,
+      "fat_lba": 32,
+      "fat_offset": 48,
+      "size": 78
+    },
+    {
+      "width": 3,
+      "height": 2,
+      "top_down": true,
+      "offset": 54,
+      "first_lba": 558,
+      "fat_lba": 32,
+      "fat_offset": 60,
+      "size": 78
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "top_down": false,
+      "offset": 54,
+      "first_lba": 561,
+      "fat_lba": 32,
+      "fat_offset": 72,
+      "size": 921654
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "top_down": true,
+      "offset": 54,
+      "first_lba": 5964,
+      "fat_lba": 74,
+      "fat_offset": 180,
+      "size": 2764854
+    }
+  ]
+}

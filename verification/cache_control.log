@@ -1,0 +1,2 @@
+PASS presentation pause, prefetch while HOME, cache controller initial load, background order/quiet UI, manual preemption, failed prefetch skip/retry, nine cached hits with zero loader releases, auto mode during background I/O, all-failed stop
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_sdhs30\sim\tb_cache_control.sv:53: $finish called at 43750000 (1ps)

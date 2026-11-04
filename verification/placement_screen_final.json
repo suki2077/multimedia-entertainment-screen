@@ -1,0 +1,30 @@
+[
+  {
+    "name": "p2s3",
+    "pass_place": true,
+    "slices": 9573,
+    "congestion": 74.24,
+    "setup_ps": 2147
+  },
+  {
+    "name": "p2s5",
+    "pass_place": true,
+    "slices": 9559,
+    "congestion": 78.83,
+    "setup_ps": 2554
+  },
+  {
+    "name": "p3s11",
+    "pass_place": true,
+    "slices": 9589,
+    "congestion": 80.28,
+    "setup_ps": 2488
+  },
+  {
+    "name": "p3s17",
+    "pass_place": true,
+    "slices": 9603,
+    "congestion": 82.14,
+    "setup_ps": 1061
+  }
+]

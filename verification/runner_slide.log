@@ -1,0 +1,2 @@
+PASS slide/standing/airborne collision matrix, pause/resume, exclusive actions, 24000-frame fair mixed course, strict alternating jump/slide across >127 obstacles, both slots, 3 gaps, 3 speeds and LFSR cycle
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_native30\sim\tb_runner_slide.sv:46: $finish called at 1921880000 (1ps)

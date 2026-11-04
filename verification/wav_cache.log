@@ -1,0 +1,2 @@
+PASS fragmented FAT32 WAV: 4097 exact stereo PCM words, chunk parsing, EOF and consumer backpressure
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_native30\sim\tb_wav_cache.sv:50: $finish called at 1683817500 (1ps)

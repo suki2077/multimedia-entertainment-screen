@@ -1,0 +1,4 @@
+START round=          0 prefill=        768 pipeline=          1 stream=          1 latency_ns=1958330000
+START round=          1 prefill=        768 pipeline=          1 stream=          1 latency_ns=1770830000
+PASS MEDIA_LATENCY exact5597 stereo PCM samples, live song restart flush, concurrent photo sectors=       1044, no underruns, CMD17=          0 CMD18=         76 CMD12=         75
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_sdhs30\sim\tb_music_hs30.sv:50: $finish called at 121327520000 (1ps)

@@ -1,0 +1,35 @@
+set_pin_assignment { sys_clk } { LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { sys_rst_n } { LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { HDMI_CLK_P } { LOCATION = C3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D0_P } { LOCATION = G5; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D1_P } { LOCATION = F1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D2_P } { LOCATION = E1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_CLK_P1 } { LOCATION = K1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D0_P1 } { LOCATION = F5; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D1_P1 } { LOCATION = E3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D2_P1 } { LOCATION = B3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+
+set_pin_assignment { sd_ncs } { LOCATION = A12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { sd_dclk } { LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { sd_mosi } { LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { sd_miso } { LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+set_pin_assignment { key_next_n } { LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { key_prev_n } { LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+set_pin_assignment { key_mode_n } { LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+set_pin_assignment { switches[0] } { LOCATION = C8; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { switches[1] } { LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { switches[2] } { LOCATION = C6; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { HDMI_DDC_SCL } { LOCATION = P2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment { HDMI_DDC_SDA } { LOCATION = R2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+
+set_pin_assignment { switches[3] } { LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+set_pin_assignment { uart_rx } { LOCATION = F13; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { uart_tx } { LOCATION = F14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+# Confirmed on user hardware: pin_compare LED3/LED4 respond at D14, not J13.
+set_pin_assignment { voice_rx } { LOCATION = D14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+# Hardware probe: external TX on user-identified J1.4 decoded as F13, 38400 8N1.
+

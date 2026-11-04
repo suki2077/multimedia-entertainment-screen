@@ -1,0 +1,2 @@
+PASS two distinct palettes: 1600 PCM samples, 259200 exact decoded pixels, both palette halves and all indices, source stalls and independent video/audio backpressure
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_native30\sim\tb_av_unpacker.sv:34: $finish called at 10477971000 (1ps)

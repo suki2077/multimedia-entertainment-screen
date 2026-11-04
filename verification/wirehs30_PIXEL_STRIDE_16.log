@@ -1,0 +1,144 @@
+sim time=68000 cycles=0 sd_ready=0 reader=0 words=0 ready=0 frames=0
+CMD 0 arg=00000000
+CMD 8 arg=000001aa
+CMD 55 arg=00000000
+CMD 41 arg=40000000
+CMD 16 arg=00000200
+CMD 6 arg=80fffff1
+CMD 13 arg=00000000
+CMD 18 arg=00000000
+CMD 12 arg=00000000
+CMD 18 arg=00000800
+CMD 12 arg=00000000
+CMD 18 arg=00000a46
+CMD 12 arg=00000000
+CMD 18 arg=00000aa6
+CMD 12 arg=00000000
+CMD 18 arg=00000820
+CMD 12 arg=00000000
+CMD 18 arg=00000ae6
+CMD 12 arg=00000000
+CMD 18 arg=00000b26
+CMD 12 arg=00000000
+CMD 18 arg=00000b66
+sim time=15000068000 cycles=1000000 sd_ready=1 reader=15 words=15744 ready=0 frames=0
+CMD 12 arg=00000000
+CMD 18 arg=00000ba6
+CMD 12 arg=00000000
+CMD 18 arg=00000be6
+CMD 12 arg=00000000
+CMD 18 arg=00000c26
+CMD 12 arg=00000000
+CMD 18 arg=00000c66
+CMD 12 arg=00000000
+CMD 18 arg=00000ca6
+sim time=30000068000 cycles=2000000 sd_ready=1 reader=15 words=896 ready=0 frames=0
+CMD 12 arg=00000000
+CMD 18 arg=00000ce6
+CMD 12 arg=00000000
+CMD 18 arg=00000d26
+CMD 12 arg=00000000
+CMD 18 arg=00000d66
+CMD 12 arg=00000000
+CMD 18 arg=00000da6
+sim time=45000068000 cycles=3000000 sd_ready=1 reader=14 words=19359 ready=0 frames=0
+CMD 12 arg=00000000
+CMD 18 arg=00000de6
+CMD 12 arg=00000000
+CMD 18 arg=00000e26
+CMD 12 arg=00000000
+CMD 18 arg=00000e66
+CMD 12 arg=00000000
+CMD 18 arg=00000ea6
+progress time=56223413000 frame=1 samples=0 late=0
+CMD 12 arg=00000000
+CMD 18 arg=00000000
+CMD 12 arg=00000000
+CMD 18 arg=00000800
+CMD 12 arg=00000000
+CMD 18 arg=00000a46
+CMD 12 arg=00000000
+CMD 18 arg=00000aa6
+sim time=60000068000 cycles=4000000 sd_ready=1 reader=19 words=3558 ready=1 frames=1
+CMD 12 arg=00000000
+CMD 18 arg=00000820
+CMD 12 arg=00000000
+CMD 18 arg=00000ae6
+CMD 12 arg=00000000
+CMD 18 arg=00000b26
+CMD 12 arg=00000000
+CMD 18 arg=00000b66
+CMD 12 arg=00000000
+CMD 18 arg=00000ba6
+CMD 12 arg=00000000
+CMD 18 arg=00000be6
+sim time=75000068000 cycles=5000000 sd_ready=1 reader=15 words=21376 ready=1 frames=1
+CMD 12 arg=00000000
+CMD 18 arg=00000c26
+CMD 12 arg=00000000
+CMD 18 arg=00000c66
+CMD 12 arg=00000000
+CMD 18 arg=00000ca6
+CMD 12 arg=00000000
+CMD 18 arg=00000ce6
+sim time=90000068000 cycles=6000000 sd_ready=1 reader=15 words=6784 ready=1 frames=1
+CMD 12 arg=00000000
+CMD 18 arg=00000d26
+CMD 12 arg=00000000
+CMD 18 arg=00000d66
+CMD 12 arg=00000000
+CMD 18 arg=00000da6
+progress time=100768418000 frame=2 samples=805 late=0
+CMD 12 arg=00000000
+CMD 18 arg=00000de6
+CMD 12 arg=00000000
+CMD 18 arg=00000e26
+sim time=105000068000 cycles=7000000 sd_ready=1 reader=15 words=24960 ready=1 frames=2
+CMD 12 arg=00000000
+CMD 18 arg=00000e66
+CMD 12 arg=00000000
+CMD 18 arg=00000ea6
+CMD 12 arg=00000000
+CMD 18 arg=00000000
+CMD 12 arg=00000000
+CMD 18 arg=00000800
+CMD 12 arg=00000000
+CMD 18 arg=00000a46
+CMD 12 arg=00000000
+CMD 18 arg=00000aa6
+CMD 12 arg=00000000
+CMD 18 arg=00000820
+CMD 12 arg=00000000
+CMD 18 arg=00000ae6
+CMD 12 arg=00000000
+CMD 18 arg=00000b26
+sim time=120000068000 cycles=8000000 sd_ready=1 reader=14 words=8808 ready=1 frames=2
+CMD 12 arg=00000000
+CMD 18 arg=00000b66
+CMD 12 arg=00000000
+CMD 18 arg=00000ba6
+CMD 12 arg=00000000
+CMD 18 arg=00000be6
+CMD 12 arg=00000000
+CMD 18 arg=00000c26
+sim time=135000068000 cycles=9000000 sd_ready=1 reader=14 words=27226 ready=1 frames=2
+CMD 12 arg=00000000
+CMD 18 arg=00000c66
+CMD 12 arg=00000000
+CMD 18 arg=00000ca6
+sim time=150000068000 cycles=10000000 sd_ready=1 reader=14 words=528 ready=1 frames=2
+sim time=165000068000 cycles=11000000 sd_ready=1 reader=14 words=528 ready=1 frames=2
+sim time=180000068000 cycles=12000000 sd_ready=1 reader=14 words=528 ready=1 frames=2
+progress time=184768163000 frame=3 samples=1813 late=0
+CMD 12 arg=00000000
+CMD 18 arg=00000ce6
+CMD 12 arg=00000000
+CMD 18 arg=00000d26
+CMD 12 arg=00000000
+CMD 18 arg=00000d66
+sim time=195000068000 cycles=13000000 sd_ready=1 reader=14 words=13110 ready=1 frames=3
+CMD 12 arg=00000000
+CMD 18 arg=00000da6
+boundary_wait_ticks=0
+PASS AV pipeline with exact PCM, pause/resume, audio-master VS alignment and loops: 157440 RGB samples across 2457600 output pixels, full-panel 640x480 mapping, floor(y*9/16) native rows, no tearing, no row underruns, 2 EOF loops, 3 displayed frames
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_sdhs30\sim\tb_wirehs30.sv:127: $finish called at 200153661000 (1ps)

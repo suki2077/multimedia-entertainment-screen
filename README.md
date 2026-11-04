@@ -1,2 +1,7 @@
-# multimedia-entertainment-screen
-FPGA创新设计竞赛安路赛道赛题一源码
+# 多媒体娱乐屏
+
+安路 EG4S20 FPGA 多媒体终端。支持20张图片自适应显示、WAV音乐、480×270 30fps视频、打砖块与跑酷、蓝牙字幕和离线语音。
+
+rtl为硬件代码，constraints为引脚约束，sim与verification为测试，tools为媒体转换源码，android为手机应用源码。开发工具为安路TD6.2.1。
+
+包含开发平台配套IP，版权归原权利人；本仓库不授予第三方IP再许可。未包含许可证、歌曲、视频和FFmpeg可执行文件。

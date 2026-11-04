@@ -1,0 +1,2 @@
+PASS invalid video rejected mode=1 error=06
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_native30\sim\tb_av_reader.sv:44: $finish called at 43533000 (1ps)

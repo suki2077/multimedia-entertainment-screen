@@ -1,0 +1,2 @@
+PASS fragmented FAT32 VIDEO.SAV: 66048 interleaved words, all bytes, EOF, bounded SD reads, indefinite consumer backpressure
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_native30\sim\tb_av_reader.sv:50: $finish called at 11354287000 (1ps)

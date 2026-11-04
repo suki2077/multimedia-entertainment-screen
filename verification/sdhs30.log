@@ -1,0 +1,29 @@
+CMD 0 arg=00000000
+CMD 8 arg=000001aa
+CMD 55 arg=00000000
+CMD 41 arg=40000000
+CMD 16 arg=00000200
+CMD 6 arg=80fffff1
+CMD 13 arg=00000000
+CMD 17 arg=00000032
+CMD 17 arg=00000033
+CMD 18 arg=00000064
+MULTIREAD effective_Bps=5177993.527508 consecutive_clocks=210944 CMD17=2 CMD18=1 CMD12=0
+CMD 12 arg=00000000
+CMD 18 arg=00000384
+CMD 12 arg=00000000
+CMD 18 arg=00000000
+CMD 12 arg=00000000
+CMD 17 arg=00000046
+CMD 17 arg=00000047
+CMD 18 arg=000001f4
+CMD 0 arg=00000000
+CMD 8 arg=000001aa
+CMD 55 arg=00000000
+CMD 41 arg=40000000
+CMD 16 arg=00000200
+CMD 6 arg=80fffff1
+CMD 13 arg=00000000
+CMD 17 arg=0000004d
+PASS line-level SD init, single/multi sectors, CMD12 stuff/busy, fragmented seeks, media mode switch, mid-sector reset recovery and exact bytes
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_sdhs30\sim\tb_sdhs30.sv:121: $finish called at 7606170000 (1ps)

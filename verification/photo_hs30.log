@@ -1,0 +1,6 @@
+photo native stream=          1 groups=      16384
+photo native stream=          1 groups=      32768
+photo native stream=          1 groups=      49152
+photo native stream=          1 groups=      65536
+PASS PHOTO_NATIVE stream=          1 cycles=   10559884 groups=      76800 CMD17=          0 CMD18=         31 CMD12=         30
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_sdhs30\sim\tb_photo_hs30.sv:24: $finish called at 159433290000 (1ps)

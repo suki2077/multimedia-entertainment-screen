@@ -1,0 +1,2 @@
+PASS tagged-cache control: 20 logical indices x16 valid-slot masks, exact hit/miss loader gating, 5-bit indices and wrap
+C:\Users\��Ϊ\Documents\Codex\2026-10-16\t\outputs\multimedia_entertainment_screen_sdhs30\sim\tb_album20_tagged.sv:20: $finish called at 480000000 (1ps)
